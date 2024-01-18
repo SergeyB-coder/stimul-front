@@ -1,0 +1,290 @@
+.cntr_main {
+    display: flex;
+    background-color: #DFDFDE;
+    height: 100vh;
+    width: 100vw;
+}
+
+.cntr_messages {
+    position: relative;
+    background-color: #60695c;
+    height: 90vh;
+    width: 75vw;
+    margin-top: 10vh;
+}
+.arrow_down_scroll {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20vh;
+    right: 3vw;
+    z-index: 15;
+    background-color: #2f2504;
+    border-radius: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.arrow_down_scroll:hover {
+    opacity: 0.8;
+}
+
+.messages {
+    height: 80vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.cntr_chats {
+    /* background-color: #60695c; */
+    position: relative;
+    margin-top: 10vh;
+    height: 90vh;
+    width: 25vw;
+    height: 80vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.nores {
+    resize: none;
+  }
+
+.cntr_input_message {
+    background-color: #a6a69f;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.quoted_msg_input {
+    position: absolute;
+    bottom: 9vh;
+    background-color: #fff;
+    width: 50vw;
+    border-radius: 5px;
+}
+
+.close_svg {
+    position: absolute;
+    right: 0;
+    top:0;
+    cursor: pointer;
+}
+
+.close_find_svg {
+    position: absolute;
+    right: -25px;
+    top: 3px;
+    cursor: pointer;
+}
+
+.input_message {
+    background-color: #fff;
+    margin: 10px;
+    width: 60vw;
+    height: 5vh !important;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.svg_file {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.input__find_chat {
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    width: 20vw;
+}
+
+
+
+.cntr__chat_find {
+    background-color: #00798c;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+}
+
+.chat_name {
+    font-size: 15px;
+    color: #2f2504;
+}
+
+.msg_text {
+    font-size: 12px;
+}
+
+.cntr_chat_item {
+    background-color: #acb6cd;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+
+    position: relative;
+}
+
+.cntr_chat_item:hover {
+    background-color: #6b2d5c;
+}
+
+.cntr_chat_item_current {
+    background-color: #4464ad;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+
+    position: relative;
+}
+
+.cntr_message_item {
+    background-color: #e9ebf0;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    color: #0a0202;
+    cursor: pointer;
+    width: 37%;
+    text-align: left;
+}
+
+.cntr_quoted_message {
+    background-color: #cbd5ec;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    color: #342d2d;
+    cursor: pointer;
+    width: 37%;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+.row_message {
+    display: flex;
+}
+
+.find_message {
+    background-color: #b2c8fa;
+}
+
+.file_upload > input {
+    display: none;
+}
+
+.user_name {
+    color: #60695c;
+    font-size: 12px;
+}
+
+.datetime {
+    color: #a089e1;
+    font-size: 12px;
+    text-align: right;
+}
+
+.sign_new_message {
+    position: absolute;
+    background-color: chocolate;
+    border-radius: 10px;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+}
+
+.finder {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+.cntr__find_chat {
+    position: absolute;
+    top: calc(10vh - 30px);
+    height: 30px;
+    left: 0px;
+}
+
+.number_chat {
+    position: absolute;
+    top: 20px;
+    left: 40%;
+    font-size: 18px;
+}
+
+.indicator_server {
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.indicator_server_off {
+    background-color: #f45b69;
+}
+
+.indicator_server_on {
+    background-color: #35ce8d;
+}
+
+.message_text {
+    white-space: pre-line;
+}
+
+.cntr_login {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cntr_form {
+    margin-top: 30vh;
+    width: 40vw;
+}
+
+.input_login {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.btn_login {
+    width: 100%;
+    margin-top: 15px;
+    background-color: #4464ad;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.btn_login:hover {
+    background-color: #3266e0;
+}
